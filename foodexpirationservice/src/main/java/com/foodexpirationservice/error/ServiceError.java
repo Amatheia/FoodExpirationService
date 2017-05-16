@@ -19,7 +19,7 @@ public class ServiceError {
         message = "HTTP status code: 500. You have reached this page in error. Please ensure that your path and all of the " +
                 "path variables are correct. Paths and their uses can be found in the documentation:\n\n" +
 
-                "https://github.com/Amatheia/TeamProject/blob/master/userDocumentation.html" +
+                "https://github.com/Amatheia/FoodExpirationService/blob/master/USERDOC.md" +
 
                 "If all else fails, the server may be down. Our apologies.";
 
