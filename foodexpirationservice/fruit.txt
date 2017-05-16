@@ -1,0 +1,85 @@
+3. Fruit
+
+Apples
+1-2 Months
+
+Apples Cut
+3-5 Days
+
+Applesauce
+1-2 Weeks
+
+Avocados
+7-10 Days
+
+Bananas
+2-9 Days
+
+Blueberries
+5-10 Days
+
+Cherries
+5-10 Days
+
+Coconuts
+1 Week
+
+Figs
+5-7 Days
+
+Grapes
+5-10 Days
+
+Lemons
+1-2 Months
+
+Lemons Cut
+2-3 Days
+
+Limes
+1-2 Months
+
+Limes Cut
+2-3 Days
+
+Olives
+3-4 Months
+
+Oranges
+1-2 Months
+
+Oranges Cut
+1-2 Days
+
+Peaches
+4-5 Days
+
+Pineapple Whole
+4-5 Days
+
+Pineapple Cut
+3-4 Days
+
+Pomegranates
+3 Weeks
+
+Pomegranate Seeds
+5-7 Days
+
+Pumpkins
+3-5 Months
+
+Pumpkins Cut
+2-3 Days
+
+Strawberries
+5-7 Days
+
+Strawberries Cut
+1-3 Days
+
+Watermelon Whole
+2-3 Weeks
+
+Watermelon Cut
+3-5 Days

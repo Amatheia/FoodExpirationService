@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="foodexpiration@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="foodexpiration">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="inventorytracker"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="performance_schema"/>
+    <schema id="7" parent="1" name="SAMPLE"/>
+    <schema id="8" parent="1" name="securitydemo"/>
+    <schema id="9" parent="1" name="sys"/>
+    <table id="10" parent="2" name="category"/>
+    <table id="11" parent="2" name="item"/>
+    <column id="12" parent="10" name="category_id">
+      <Position>1</Position>
+      <DataType>int(12)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="13" parent="10" name="category_name">
+      <Position>2</Position>
+      <DataType>varchar(25)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="14" parent="10" name="PRIMARY">
+      <ColNames>category_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="15" parent="11" name="item_id">
+      <Position>1</Position>
+      <DataType>int(14)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="16" parent="11" name="item_name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="11" name="category_id">
+      <Position>2</Position>
+      <DataType>int(12)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="11" name="expiration_time">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <index id="19" parent="11" name="fk_cat">
+      <ColNames>category_id</ColNames>
+    </index>
+    <key id="20" parent="11" name="PRIMARY">
+      <ColNames>item_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="21" parent="11" name="item_ibfk_1">
+      <ColNames>category_id</ColNames>
+      <RefSchemaName>foodexpiration</RefSchemaName>
+      <RefTableName>category</RefTableName>
+      <RefColNames>category_id</RefColNames>
+      <OnUpdate>update</OnUpdate>
+    </foreign-key>
+  </database-model>
+</dataSource>
